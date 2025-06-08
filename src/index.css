@@ -1,0 +1,105 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+.dark {
+  color-scheme: dark;
+}
+
+body.dark {
+  background-color: #212529;
+}
+
+.dark .mainContainer {
+  background-color: #212529 !important;
+  min-height: 100vh;
+}
+
+.light .ant-layout-content {
+  background-color: #f8f9fa;
+  color: #212529;
+}
+
+.dark .ant-card {
+  background-color: #1f2937;
+  border-color: #374151;
+}
+
+.dark .ant-card-head {
+  color: #f8f9fa;
+}
+
+.dark .ant-tabs-tab {
+  color: #9ca3af;
+}
+
+.dark .ant-tabs-tab-active {
+  color: #f8f9fa;
+}
+
+.dark .ant-select-selector {
+  background-color: #212529 !important;
+  border-color: #374151 !important;
+  color: #f8f9fa !important;
+}
+
+.dark .ant-select-selection-item {
+  color: #f8f9fa !important;
+}
+
+.dark .ant-select-dropdown {
+  background-color: #1f2937;
+}
+
+.dark .ant-select-item {
+  color: #f8f9fa;
+}
+
+.dark .ant-select-item-option-selected {
+  background-color: #374151;
+}
+
+.dark .ant-input-number {
+  background-color: #212529;
+  border-color: #374151;
+  color: #f8f9fa !important;
+}
+
+.dark .ant-input-number-input {
+  color: #f8f9fa;
+}
+
+.dark .ant-switch {
+  background-color: #374151;
+}
+
+.dark .ant-switch-checked {
+  background-color: #3b82f6;
+}
+
+/* ForecastList dark mode styles */
+.dark .ant-typography {
+  color: #f8f9fa !important;
+}
+
+.dark .ant-typography-secondary {
+  color: #f8f9fa !important;
+}
+
+.dark .ant-card .ant-typography {
+  color: #f8f9fa !important;
+}
+
+.dark .ant-card .ant-typography-secondary {
+  color: #f8f9fa !important;
+}
